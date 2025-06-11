@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES2020", /* Define o padrão de JavaScript para o qual o TypeScript será compilado (ex: ES2020, ESNext). */
+    "module": "CommonJS", /* Especifica o sistema de módulo a ser usado (ex: CommonJS, ESNext, UMD). */
+    "outDir": "./dist", /* Diretório de saída para os arquivos compilados (JavaScript). */
+    "rootDir": "./src", /* Diretório raiz dos arquivos TypeScript. */
+    "strict": true, /* Habilita um conjunto rigoroso de verificações de tipo. */
+    "esModuleInterop": true, /* Habilita interoperabilidade entre módulos CommonJS e ES. */
+    "skipLibCheck": true, /* Pula a verificação de tipo de todos os arquivos de declaração (.d.ts). */
+    "forceConsistentCasingInFileNames": true /* Garante que os nomes dos arquivos sejam consistentes no uso de maiúsculas/minúsculas. */
+  },
+  "include": [
+    "src/**/*" /* Inclui todos os arquivos TypeScript dentro da pasta 'src'. */
+  ],
+  "exclude": [
+    "node_modules", /* Exclui a pasta node_modules da compilação. */
+    "**/*.spec.ts" /* Exclui arquivos de teste. */
+  ]
+}
