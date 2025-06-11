@@ -1,8 +1,15 @@
 // simula um crud
 
-export class Pessoa {
-  id: number | undefined
-  nome: string | undefined
-  sobrenome: string | undefined
-}
+import { PessoaRepository } from "."
+import { Pessoa } from ".";
+
+const pessoa1 = new Pessoa(1, 'Lucas', 'Azevedo')
+const pessoa2 = new Pessoa(2, 'Renan', 'Chorao de Quadrinhos')
+const pessoa3 = new Pessoa(3, 'Paulinho', 'Manja Nada')
+
+
+
+const savingProcess = new PessoaRepository
+
+savingProcess.save(pessoa1)
 
