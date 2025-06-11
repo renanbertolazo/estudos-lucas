@@ -1,7 +1,7 @@
 // simula um crud
 
-import { PessoaRepository } from "."
-import { Pessoa } from ".";
+import { PessoaRepository } from "./pessoa.repository"
+import { Pessoa } from "./pessoa.repository";
 
 const pessoa1 = new Pessoa(1, 'Lucas', 'Azevedo')
 const pessoa2 = new Pessoa(2, 'Renan', 'Chorao de Quadrinhos')
